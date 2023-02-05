@@ -1,0 +1,13 @@
+#quote{
+    width: 40%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.quote-writer{
+    margin-top: 10px;
+    display: block;
+    font-size: small;
+}

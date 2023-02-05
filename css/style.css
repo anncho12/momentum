@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+@import "back.css";
+@import "main.css";
+@import "greeting.css";
+@import "clock.css";
+@import "quotes.css";
+@import "todo.css";
+@import "weather.css";
+
+* {
+    z-index:300;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.hidden {
+    display: none;
+    /*visibility: hidden도 가능 .
+    두번째 방법은 공간은 그대로 두고 보이지만 않는것.
+    첫번째 방법은 잡아둔 공간도 사라지는 것.*/
+}
